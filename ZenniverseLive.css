@@ -1,0 +1,99 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    top: 0px;
+
+    background-color: black;
+}
+
+h2{
+    padding: -10px;
+    margin: 0px;
+    
+    line-height: 30px;
+}
+
+h3{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#container{
+    background: linear-gradient(120deg, #00AEF9 15%, #004F71 90%);
+    border-radius: 5px;
+    /*background-color: gray; /* for Dev?*/
+    box-shadow: 0px 0px 10px 10px #d070fdbb;
+
+    height: 100px;
+    width: 400px;
+
+    padding: 10px;
+    margin: 10px;
+
+    color: white;
+    font-family:'Segoe UI';
+    line-height: 10px;
+
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+
+#imagebox{
+    /*background-color: white;*/
+    height: 100px;
+    width: 100px;
+}
+
+#songimage{
+    border-radius: 5px;
+}
+
+#infobox{
+    margin: 10px;
+}
+
+#songname{
+
+}
+
+#artist{
+
+}
+
+#progressbox{
+    align-items: center;
+    display: grid;
+    height: 20px;
+    grid-template-columns: 35px max-content 35px;
+    gap:5px;
+}
+
+#songcurrenttime{
+    margin-right: 5px;
+}
+
+#progressbar{
+    width: 200px;
+    height: 10px;
+    background-color:darkgray;
+
+    border-radius: 10px;
+}
+
+#progress{
+    border-radius: 10px;
+    background-color: white;
+    height: 100%;
+    width: 0%;
+    transition: width 1s;
+}
+
+#songendtime{
+}

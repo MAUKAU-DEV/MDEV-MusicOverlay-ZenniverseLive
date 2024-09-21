@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OVERLAY</title>
+    <link type="text/css" rel="stylesheet" href="themes/<%= activetheme %>">
+    <script type="application/x-javascript" dataType: 'jsonp' src="js/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="ZenniverseLive.css">
+</head>
+<body>
+    <div id="container">
+        <div id="imagebox">
+            <img id="songimage" src="defaulticon.jpg">
+        </div>
+        <div id="infobox">
+            <h2 class="staticname" id="songnamestatic">[SONGNAME]</h2>
+            <h3 id="artist">[ARTIST]</h3>
+            <div id="progressbox">
+                <span id="songcurrenttime">0:00</span>
+                <div id="progressbar">
+                    <div id="progress"></div>
+                </div>
+                <span id="songendtime">60:60</span>
+            </div>
+        </div>
+        
+    </div>
+</body>
